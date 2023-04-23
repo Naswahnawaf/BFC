@@ -1,0 +1,532 @@
+/*
+/* @keyframes animateleft {
+  0% {
+    left: -450px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+} */
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+/*
+@keyframes scrolltotop {
+  0% {
+    bottom: -900px;
+  }
+
+  100% {
+    bottom: 0;
+  }
+}
+
+.animatetotop {
+  position: relative;
+  animation: scrolltotop 5s linear;
+} */
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/9e/cd/c5/9ecdc5db91b0185628ef432ee7e34dfa.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  text-align: center;
+  opacity: 3;
+  font-size: 155%;
+  line-height: 2;
+  color: white;
+  cursor: default;
+  animation: opacity 2s linear;
+}
+
+h2, h3, h4 {
+  margin: 25px auto 30px auto;
+  font-family: 'Audiowide', serif;
+}
+
+h5 {
+  font-family: 'Special Elite', serif;
+}
+
+.formhead{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.regno{
+  position: absolute;
+  right:20px;
+}
+
+hr {
+  width: 10%;
+  border-style: dotted;
+  border-width: 13px 0 0;
+  margin: 60px auto 30px auto;
+  border-color: rgba(0, 0, 100, 0.4);
+}
+
+/****************** Navigation bar ********************/
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+  width: 7%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.nav-icon {
+  width: 5.6rem;
+}
+
+.headerlink, .buttonlink {
+  padding: 22px;
+  margin: 0 20px;
+}
+
+.headerlink:hover {
+  background-color: rgba(0, 0, 0, 0.155);
+  border-radius: 10%;
+}
+
+.nav-item.active {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10%;
+}
+
+/********************* Footer ********************/
+.bottom-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.footer-link {
+  margin: 3px;
+  padding-left: 10px;
+  color: black;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.end , .devlink {
+  color: #c6ebc9;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.devlink:hover{
+  color:black;
+  text-decoration: none;
+}
+
+
+/********************** heading section **************************/
+.heading {
+  width: 60%;
+  margin: 60px auto 0 auto;
+  font-size: 80px;
+  font-family: 'Redressed', sans-serif;
+}
+
+.heading:hover {
+  color: #98acf8;
+  text-shadow: 2px 2px 10px red;
+}
+
+.describe {
+  font-family: 'Cookie', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.abbrev {
+  margin-top: 30px;
+}
+
+.profilepic {
+  border-radius: 100%;
+  margin: 0;
+  border: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.since {
+  color: black;
+  margin: 0;
+}
+
+/************** Board members **********/
+.board {
+  font-family: 'Goldman', cursive;
+  margin-top: 80px;
+  color: #f1f1f1;
+}
+
+.board-memberleft {
+  width: 55%;
+  margin: auto;
+  text-align: left;
+}
+
+.left-side {
+  float: left;
+  margin-right: 30px;
+}
+
+.board-memberright {
+  width: 55%;
+  margin: auto;
+  text-align: right;
+}
+
+.right-side {
+  float: right;
+  margin-left: 30px;
+}
+
+.h3-head {
+  font-family: 'Courgette', cursive;
+  margin: 10% auto 10px auto;
+}
+
+/********************** Club Members Section *********************/
+.number {
+  color: white;
+  text-decoration: none;
+}
+
+.number:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#list-members {
+  width: 11%;
+  position: fixed;
+  right: 170px;
+  top: 26%;
+}
+
+.list {
+  background-color: rgba(0, 0, 0, 0.199);
+  color: rgb(255 255 255 / 80%);
+}
+
+.members-list, .subheading {
+  padding: 60px 0 0 0;
+  clear: both;
+}
+
+.degree {
+  font-size: 18px;
+}
+
+.animateleft {
+  position: relative;
+  animation: animateleft 3s;
+}
+
+.animateright {
+  position: relative;
+  animation: animateright 3s;
+}
+
+/*******************Events Section ********************/
+.activities {
+  margin: 3% auto;
+  width: 75%;
+  height: 750px;
+  background-color: rgba(0, 0, 50, 0.5);
+  border-radius: 15%;
+}
+
+.event {
+  width: 80%;
+  height: 670px;
+  margin: 40px auto 40px auto;
+  border-radius: 15%;
+}
+
+.eventname {
+  text-align: right;
+  bottom: 80px;
+  color: #feffde;
+  font-family: 'goldman', sans-serif;
+}
+
+/******************* Newsfeed Section ******************/
+.newupdates {
+  background-image: linear-gradient(to top right, purple, midnightblue, darkblue);
+  opacity: 0.6;
+  height: 100%;
+  width: 90%;
+  margin: 70px auto 0;
+  color: #b8b5ff;
+}
+
+.marqueetext {
+  font-size: 3.2rem;
+  margin: 300px 0;
+}
+
+/**********************Memento Section ***********************/
+.grppic {
+  width: 100%;
+  height: 970px;
+  margin-bottom: 70px;
+}
+
+.tab {
+  width: 90%;
+  margin: auto;
+}
+
+.tablinks, .tablinks:hover {
+  color: white;
+}
+
+.nav-tabs .tablinks.active {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.mementosection {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 90%;
+  margin: auto;
+  border: 1px solid white;
+}
+
+.mementodiv {
+  width: 94%;
+  margin: 30px auto 30px auto;
+}
+
+.pics {
+  width: 100%;
+}
+
+.seperatepicsdiv {
+  display: inline-block;
+  margin: 30px 0 30px;
+
+}
+
+/*****************************About us section *******************/
+.container-fluid {
+  padding: 2% 0 0 13%;
+}
+
+.aboutheading {
+  font-family: serif;
+  font-size: 60px;
+  margin: 30px 0 0;
+}
+
+.address {
+  font-family: 'goldman', serif;
+  text-align: center;
+}
+
+.bfcabout {
+  width: 65%;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 3%;
+  margin: 0 auto 0 auto;
+}
+
+.img {
+  width: 83%;
+  height: 650px;
+  margin: 0 auto 0 auto;
+}
+
+/************************ Membership Form ***************************/
+.membership {
+  width: 65%;
+  margin: 50px auto;
+  position: relative;
+  padding: 10px 0 40px;
+}
+
+.memdetails {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.formbtn{
+  margin: 20px 20px 30px 0;
+}
+
+input[type="checkbox"]{
+  margin: 15px 10px ;
+}
+.inputfields{
+ background-color: rgba(0,0,0,0.3);
+ position: absolute;
+ left:174px;
+ height: 53px;
+ width: 265px;
+ color: white;
+ -webkit-border-before:1px inset grey;
+}
+
+.membershipppic{
+  width:200px;
+  height:210px;
+  background-color: rgba(0,0,0,0.3);
+  text-align: center;
+  line-height: 215px;
+  position:absolute;
+  right:60px;
+  top:320px;
+}
+
+input[type="file"]{
+  position:absolute;
+  left:920px;
+  top:540px;
+}
+
+/***************** Media Query for mobile responsive *****************/
+
+ @media (max-width:1200px) {
+  html {
+    font-size: 80%;
+  }
+
+  hr{
+    margin:38px auto;
+  }
+
+  img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .heading {
+    margin: auto;
+    font-size: 55px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .describe{
+    font-size: 28px;
+  }
+
+  .activities {
+    width: 87%;
+    height: 100%;
+  }
+
+  .event {
+    width: 87%;
+    height: 350px;
+  }
+
+  #list-members {
+    width: 42%;
+    font-size: 16px;
+    right: 10px;
+    z-index: 1;
+  }
+
+  .members-list, .board {
+    margin-bottom: 70px;
+  }
+
+  hr {
+    width: 25%;
+  }
+
+  .bfcabout {
+    width: 90%;
+    height: 290px;
+  }
+
+  .img, .grppic {
+    height: 290px;
+  }
+
+  .membership{
+    width:94%;
+    margin-top: 30px;
+  }
+
+  .memdetails{
+    margin: 15px;
+  }
+
+  .membershipppic{
+    position:relative;
+    top:15px;
+    left:120px;
+    width:160px;
+    height:170px;
+    line-height: 170px;
+  }
+
+  input[type="file"]{
+    position:relative;
+    top:20px;
+    left:20px;
+    margin-bottom: 15px;
+    width:90%;
+    font-size: 17px;
+  }
+
+  .inputfields{
+    left:136px;
+    height:38px;
+    width:160px;
+    font-size:17px;
+  }
+
+   .terms{
+     display: inline;
+   }
+
+   .subheading{
+     padding-top:30px;
+   }
+
+   .end , .devlink{
+     font-size: 13px;
+   }
+
+   .bottom-container{
+     padding: 5px;
+   }
+
+   .headerlink , .buttonlink{
+     padding: 12px;
+   }
+
+
+}
